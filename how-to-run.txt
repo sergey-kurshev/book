@@ -1,0 +1,51 @@
+Installation Instructions for macOS
+
+Prerequisites:
+- Python 3.x installed on your system
+
+Step 1: Download the Repository
+
+1. Open your web browser and go to: https://github.com/sergey-kurshev/book
+2. Click the green "Code" button near the top right
+3. Click "Download ZIP"
+4. Once downloaded, locate the file (usually in your Downloads folder) and double-click to extract it
+5. Move the extracted folder "book-master" to your desired location (e.g., Documents)
+
+Step 2: Open Terminal
+
+1. Press Cmd + Space to open Spotlight
+2. Type "Terminal" and press Enter
+
+Step 3: Navigate to the Repository
+
+cd ~/Downloads/book-master
+
+(Adjust the path if you moved the folder to a different location)
+
+Step 4: Create a Virtual Environment
+
+python3 -m venv venv
+
+Step 5: Activate the Virtual Environment
+
+source venv/bin/activate
+
+Step 6: Install Dependencies
+
+pip install -r requirements.txt
+
+Step 7: Launch Jupyter Lab
+
+jupyter lab
+
+This will open Jupiter Lab in your web browser where you can explore and run the notebooks.
+
+
+
+Future Use:
+
+To use the notebooks again later:
+1. Open Terminal
+2. Navigate to the folder: cd ~/Downloads/book-master
+3. Activate the virtual environment: source venv/bin/activate
+4. Launch Jupyter Lab: jupyter lab
